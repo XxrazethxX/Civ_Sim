@@ -1,0 +1,14 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependency folders if tooling is added later
+node_modules/
+
+# Temporary logs
+*.log
+
+# Generated UI audit screenshots are local QA artifacts
+systems/ui-audit/

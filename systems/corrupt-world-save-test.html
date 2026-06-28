@@ -1,0 +1,62 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Corrupt world save test</title>
+<script>
+(() => {
+  const SAVE_KEY = 'hamletOfWoodstockSaveV2';
+  const LEGACY_KEY = 'hamletOfWoodstockLegacyV1';
+  const BACKUP_KEY = 'corruptWorldSaveTestBackup';
+
+  if (location.hash === '#restore') {
+    const backup = JSON.parse(sessionStorage.getItem(BACKUP_KEY) || '{}');
+    if (backup.save === null) localStorage.removeItem(SAVE_KEY);
+    else if (typeof backup.save === 'string') localStorage.setItem(SAVE_KEY, backup.save);
+    if (backup.legacy === null) localStorage.removeItem(LEGACY_KEY);
+    else if (typeof backup.legacy === 'string') localStorage.setItem(LEGACY_KEY, backup.legacy);
+    sessionStorage.removeItem(BACKUP_KEY);
+    location.replace('/index.html');
+    return;
+  }
+
+  sessionStorage.setItem(BACKUP_KEY, JSON.stringify({
+    save: localStorage.getItem(SAVE_KEY),
+    legacy: localStorage.getItem(LEGACY_KEY)
+  }));
+
+  localStorage.setItem(SAVE_KEY, JSON.stringify({
+    game: {
+      time: 1200,
+      year: 6,
+      month: 4,
+      population: 50000,
+      housing: 50050,
+      resources: { food: 1000, wood: 1000, stone: 1000, gold: 1000, faith: 1000 },
+      buildings: { hut: 10, barracks: 1, market: 1, workshop: 1 },
+      jobs: { idle: 12, guard: 4, soldier: 4, archer: 2, scout: 1, sapper: 1 },
+      world: {
+        selectedSector: 'missing-sector',
+        target: 'bad:999',
+        sectors: {
+          north: { opened: true },
+          east: { opened: true, cells: { 0: { owner: 'player', land: 100 } } },
+          bogus: { cells: null }
+        },
+        currentConquest: { sectorKey: 'bogus', index: 99 }
+      }
+    },
+    upgrades: {}
+  }));
+
+  localStorage.setItem(LEGACY_KEY, JSON.stringify({
+    version: 1,
+    legacy: { earned: {}, bonuses: {} },
+    world: {
+      selectedSector: 'bogus',
+      target: 'nope:42',
+      sectors: { west: { opened: true }, ghost: { cells: null } }
+    }
+  }));
+
+  location.replace('/index.html?corruptWorldSaveTest=1');
+})();
+</script>

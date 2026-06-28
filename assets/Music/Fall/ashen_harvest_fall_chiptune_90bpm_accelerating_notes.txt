@@ -1,0 +1,16 @@
+ASHEN HARVEST — GRADUAL ACCELERATION VERSION
+===============================================
+
+The first 11 seconds remain at 90 BPM.
+
+After 11 seconds, the pace increases in gradual stages while preserving pitch:
+- 0:00–0:11: 90 BPM
+- next section: about 92 BPM
+- next section: about 95 BPM
+- next section: about 98 BPM
+- final section: about 101 BPM
+
+Source duration: 53.3 seconds
+New duration: 50.5 seconds
+
+This is a tempo-only edit of the 90 BPM fall arrangement.

@@ -1,0 +1,22 @@
+MIRAGE OF THE SUN COURT — DARK-FANTASY SUMMER CHIPTUNE
+========================================================
+
+Direction:
+A more explicitly desert / Middle Eastern-inspired summer theme, written as
+an original chiptune rather than a copy of a specific regional or game track.
+
+Musical choices:
+- Tempo: 94 BPM
+- Meter: 7/8 grouped 3+2+2
+- Scale color: D Hijaz / Phrygian-dominant-inspired palette
+  (D, Eb, F#, G, A, Bb, C)
+- Continuous oud-like plucked ostinato
+- Breathier ney-like melody centered on the Eb -> F# Hijaz movement
+- Synthesized darbuka-style doum/tek percussion
+- Low desert-wind texture and dry, warm echo
+
+Length:
+16 bars / approximately 71.5 seconds
+
+This is an original composition and does not sample or reproduce another
+song or soundtrack.

@@ -1,0 +1,26 @@
+SNOWBOUND RUINS — ORIGINAL WINTER DARK-FANTASY CHIPTUNE
+===========================================================
+
+Core identity:
+- Deliberately different from the earlier fast dark-fantasy test.
+- This is a slow 6/8 snowfall march, not a battle loop.
+- It prioritizes emptiness, cold air, distant ruins, and survival in winter.
+
+Musical details:
+- Tempo: 72 BPM (dotted-quarter pulse)
+- Meter: 6/8
+- Key center: E minor, with D# tension on B-major turns
+- Length: 24 bars / approximately 40 seconds
+
+Sound palette:
+- Soft metallic ice-bell lead
+- Narrow pulse-wave frozen harp
+- Triangle-wave low drone
+- Wind-like filtered noise
+- Irregular snow-crunch texture instead of a normal drum beat
+
+Use case:
+Winter seasonal background music for a dark-fantasy kingdom/idle game.
+It is intentionally bleak and atmospheric—not festive, cozy, or cheerful.
+
+Original composition. No sampled audio or copied melody is used.

@@ -1,0 +1,29 @@
+THORNBLOOM DAWN — ORIGINAL DARK-FANTASY SPRING CHIPTUNE
+==========================================================
+
+Seasonal direction:
+Spring in a dark-fantasy kingdom: wet forests, roots pushing through old
+battlefields, faint dawn light, and something dangerous waking under the soil.
+
+How it differs from the other seasonal tracks:
+- Winter: slow 6/8, isolation, wind, ice bells.
+- Fall: dark harvest procession, wooden pulse, dry leaves.
+- Spring: 96 BPM, climbing melody, rain-drop tones, living root bass,
+  and damp forest echoes.
+
+Music:
+- Tempo: 96 BPM
+- Meter: 4/4
+- Key color: A Dorian (minor with a lifted F#)
+- Length: 20 bars / approximately 50 seconds
+
+Palette:
+- Reed-like lead melody
+- Triangle-wave root bass
+- Narrow pulse-wave climbing arpeggios
+- Soft earth thumps
+- Rain/dew ping tones and wet-noise ambience
+- Sparse eerie bells
+
+This is an original composition and does not sample or reproduce another
+game's melody or soundtrack.

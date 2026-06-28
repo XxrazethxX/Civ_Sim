@@ -1,6 +1,19 @@
+# Local Codex/agent metadata
 .agents/
 .codex/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependency folders if tooling is added later
+node_modules/
+
+# Temporary files and logs
 *.log
 *.tmp
-Thumbs.db
-.DS_Store
+
+# Generated UI audit screenshots are local QA artifacts
+systems/ui-audit/

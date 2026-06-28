@@ -1,17 +1,19 @@
 # Kingdoms Implementation Status
 
-Last updated: 2026-06-27
+Last updated: 2026-06-28
 
 ## Repository state
-- Documentation workflow is being established.
-- Verify that the complete game source, generated bundle, assets, and audio package have been pushed before implementation work begins.
-- The current GitHub repository is the implementation-facing source of truth once source files are present and committed.
+- The design/Codex documentation workflow is established and merged on `main`.
+- The game source is present: `index.html` is the browser entry point and `systems/game.js` is the main runtime source.
+- The repository contains the source-to-bundle workflow described in `README.md`.
+- The V1.2 audio integration specification is not currently present at `assets/KINGDOM_IDLE_AUDIO_CODEX_INTEGRATION_SPEC_V1_2.md`. This does not block UI Foundation Refactor I, but the full audio package must be added before audio integration work.
+- See `docs/technical/repository-inventory.md` for the current verified inventory.
 
-## Last known playable foundation
+## Current playable foundation
 - Vanilla browser civilization/idle simulation.
 - Early manual gathering for Food, Wood, and Stone.
 - Existing systems include buildings, population, religion, military, trade, seasons, raids, worker jobs, hiring, saves, and progressive tabs.
-- UI currently needs restructuring before deep government, factions, leaders, occupation, rebellion, or million-scale population systems are added.
+- UI needs restructuring before deep government, factions, leaders, occupation, rebellion, or million-scale population systems are added.
 
 ## Approved but not yet implemented
 1. UI Foundation Refactor I.
@@ -21,7 +23,7 @@ Last updated: 2026-06-27
 5. V1.2 audio integration using the supplied asset contract.
 
 ## Current task
-See `docs/tasks/current-task.md`.
+`docs/tasks/current-task.md` is ready for Codex.
 
 ## Update protocol
 After a task is merged, update this file with:

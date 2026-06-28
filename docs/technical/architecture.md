@@ -1,7 +1,7 @@
 # Kingdoms Architecture
 
 ## Status
-This document describes the expected project architecture from the last supplied source snapshot. Confirm all paths against the repository before implementation; the repository may not yet contain the full game source.
+Confirmed against the repository on 2026-06-28. The game source is present in this repository. See `docs/technical/repository-inventory.md` for the latest verified inventory and asset caveats.
 
 ## Runtime model
 - Browser-based vanilla HTML, CSS, and JavaScript application.
@@ -10,7 +10,8 @@ This document describes the expected project architecture from the last supplied
 - Generated compatibility runtime bundle: `systems/game.bundle.js`.
 - Central game runtime and most rendering/detail routing: `systems/game.js`.
 - UI helpers: `systems/ui.js`.
-- Typical game modules include state, simulation, registry, buildings, population, religion, military, and trade.
+- Current runtime imports registry, state, population, UI, simulation, and village-theme modules.
+- System modules cover state, buildings, population, military, trade, religion, UI, and simulation helpers.
 
 ## Local workflow
 - Build the compatibility bundle after source-module changes:
@@ -26,4 +27,4 @@ This document describes the expected project architecture from the last supplied
 - Stable DOM IDs and event contracts are part of the current integration surface until intentionally replaced.
 
 ## Current scalability concern
-The current population implementation has historically tracked individual workers. Long-term scale requires the approved split model: detailed named Characters plus aggregate population groups. Do not migrate this during UI Foundation Refactor I.
+The current population implementation tracks individual worker records. Long-term scale requires the approved split model: detailed named Characters plus aggregate population groups. Do not migrate this during UI Foundation Refactor I.

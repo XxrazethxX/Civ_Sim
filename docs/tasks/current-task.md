@@ -1,12 +1,13 @@
 # Current Task — UI Foundation Refactor I
 
-**Status:** Ready for Codex after the complete game source is present in this repository.
+**Status:** Ready for Codex.
 
 ## Read first
 - `AGENTS.md`
 - `docs/design/KINGDOMS_GAME_BIBLE.md`, especially UI sections and Technical section 5.7.
 - `docs/technical/architecture.md`
 - `docs/technical/testing.md`
+- `docs/technical/repository-inventory.md`
 
 ## Goal
 Establish the reusable UI foundation without changing simulation mechanics, balance, resource flows, progression thresholds, saves, raids, construction, jobs, religion, trade, or other gameplay rules.
